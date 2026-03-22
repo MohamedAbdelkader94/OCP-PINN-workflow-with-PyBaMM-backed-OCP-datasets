@@ -1,0 +1,88 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+.eggs/
+MANIFEST
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ── Jupyter ────────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+# Uncomment to ignore all notebook outputs (keep clean diffs):
+# *.ipynb
+
+# ── PyTorch / model checkpoints ───────────────────────────────────────────────
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+saved_models/
+
+# ── Results & outputs (generated — do not commit large files) ─────────────────
+results_pybamm/
+results/
+outputs/
+*.png
+*.pdf
+*.svg
+*.eps
+
+# ── Data files ────────────────────────────────────────────────────────────────
+*.csv
+*.h5
+*.hdf5
+*.parquet
+*.feather
+data/
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+runs/
+wandb/
+mlruns/
+lightning_logs/
+
+# ── OS / editor artefacts ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# ── Coverage & testing ────────────────────────────────────────────────────────
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+
+# ── MyPy / type checkers ──────────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# ── Distribution / packaging ──────────────────────────────────────────────────
+*.spec
+pip-wheel-metadata/
+share/python-wheels/
