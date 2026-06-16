@@ -1,4 +1,4 @@
-# OCP-PINN — Physics-Informed Neural Networks for Battery Open-Circuit Potential Modeling
+# OCP-PINN: Physics-Informed Neural Networks for Battery Open-Circuit Potential Modeling
 
 > Learn thermodynamically consistent OCP curves for Li-ion battery electrodes using PINNs, benchmarked against classical baselines and driven by real PyBaMM parameter sets.
 
